@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dip"
+    android:gravity="center" >
+	
+    <TextView 
+        android:id="@+id/phoneinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+    
+    <TextView 
+        android:id="@+id/times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button 
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我切换导航"
+        />
+        <Button 
+        android:id="@+id/btn_r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mp4ToMt"
+        />
+        <Button 
+        android:id="@+id/btn_r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MtTomp4"
+        />
+        
+    </LinearLayout>
+    
+    
+    <Button 
+        android:id="@+id/read_sim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取sim信息"
+        />
+    
+    <Button 
+        android:id="@+id/read_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取下载"/>
+    <Button 
+        android:id="@+id/testd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog"
+        android:focusable="true"/>
+    <TextView 
+        android:id="@+id/simType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        />
+    <TextView 
+        android:id="@+id/simPhoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="s"
+        />
+    
+    <Button 
+        android:id="@+id/change_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="切歌"
+        android:visibility="gone"/>
+    <TextView 
+        android:id="@+id/new_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:visibility="gone"/>
+    <Button 
+        android:id="@+id/readpdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pdf"
+        android:visibility="gone"/>
+    <Button 
+        android:id="@+id/readword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="word"
+        android:visibility="gone"/>
+</LinearLayout>

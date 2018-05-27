@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens_sport_roundprogressbar_delay">-15dip</dimen>
+    <dimen name="dimens_sport_roundprogressbar_height">120dip</dimen>
+    <dimen name="dimens_sport_roundprogressbar_margin">20dip</dimen>
+    <dimen name="dimens_sport_roundprogressbar_roundwidth">12dip</dimen>
+    <dimen name="mode_draw_left">200dp</dimen>
+    <dimen name="mode_left">-20dp</dimen>
+    <dimen name="music_recommend_cover_value">100dip</dimen>
+    <dimen name="sport_wh">80dp</dimen>
+</resources>

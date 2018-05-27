@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mingtingjie/Desktop/ktv/ScreenInfoPrj/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/mingtingjie/Desktop/ktv/ScreenInfoPrj/app/src/main/res/values-en/strings.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "127,59",
+                        "endColumns": "55,66",
+                        "endOffsets": "178,121"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,111",
+                        "endColumns": "55,66",
+                        "endOffsets": "106,173"
+                    }
+                }
+            ]
+        }
+    ]
+}

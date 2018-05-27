@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+   
+    <TabHost
+	    android:id="@android:id/tabhost" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    >
+	    <LinearLayout android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        >
+	        <TabWidget android:id="@android:id/tabs"
+	            android:layout_width="fill_parent"
+	            android:layout_height="50dp"
+	          	android:scaleType="center"
+	            android:layout_alignParentTop="true"
+	            /> 
+	        <FrameLayout android:id="@android:id/tabcontent"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            />  
+	    </LinearLayout>
+	</TabHost>
+    
+	<LinearLayout 
+	    android:id="@+id/main_bottom_lay"
+	    android:layout_width="fill_parent"
+	    android:layout_height="63dp"
+	    android:orientation="vertical">
+	    <LinearLayout 
+       		android:layout_width="fill_parent"
+       		android:layout_height="3.3dp"
+       		android:gravity="center">
+       		<SeekBar
+	           android:id="@+id/progressBar1"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:max="100"
+               android:progress="0"
+               android:thumb="@null" />
+	   </LinearLayout>
+	   <LinearLayout 
+	       android:layout_width="fill_parent"
+	       android:layout_height="fill_parent"
+	       android:gravity="center"
+	       >
+		    <ImageView
+		        android:id="@+id/main_orderlist"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="0.2"
+		        android:scaleType="center"
+		        />
+		    <ImageView
+		        android:id="@+id/main_prev"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="0.2"
+		        android:scaleType="center"
+		        />
+		    <ImageView
+		        android:id="@+id/main_play"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="0.2"
+		        android:scaleType="center"
+		        />
+		    <ImageView
+		        android:id="@+id/main_next"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="0.2"
+		        android:scaleType="center"
+		        />
+		    <ImageView
+		        android:id="@+id/main_playback"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="0.2"
+		        android:scaleType="center"
+		        />
+		    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

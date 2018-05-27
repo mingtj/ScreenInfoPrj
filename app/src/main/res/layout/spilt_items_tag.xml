@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="25dip"
+  android:orientation="horizontal"
+  android:paddingLeft="10dip">
+
+    
+    <ImageView
+        android:id="@+id/item_spilt_left"
+        android:layout_width="3dip"
+        android:layout_height="20dip"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+         />
+
+        
+    
+        <TextView
+        android:id="@+id/item_paper_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		 android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/item_spilt_left"
+        />
+            <TextView
+        android:id="@+id/item_paper_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+            
+                <ImageView
+        android:id="@+id/item_paper_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+ />
+            
+         
+    <ImageView
+        android:id="@+id/aa"
+        android:layout_width="wrap_content"
+        android:layout_height="25dip"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/item_paper_title"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+       />
+
+    
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mingtingjie/Desktop/ktv/ScreenInfoPrj/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-960x640-v4/values-xhdpi-960x640-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/mingtingjie/Desktop/ktv/ScreenInfoPrj/app/src/main/res/values-xhdpi-960x640/dimens.xml",
+                    "from": {
+                        "startLines": "6,3,5,4,10,11,12,7",
+                        "startColumns": "4,4,4,4,4,4,4,1",
+                        "startOffsets": "256,44,187,114,387,434,476,322",
+                        "endColumns": "68,69,68,72,46,41,60,36",
+                        "endOffsets": "320,109,251,182,429,471,532,357"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,263,336,383,425,486",
+                        "endColumns": "68,69,68,72,46,41,60,39",
+                        "endOffsets": "119,189,258,331,378,420,481,521"
+                    }
+                }
+            ]
+        }
+    ]
+}

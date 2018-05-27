@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout 
+        android:id="@+id/head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_org_selector"
+            android:text="名称排序"/>
+        
+        
+        <TextView 
+            android:id="@+id/jiage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_org_selector"
+            android:text="价格排序"/>
+        
+        
+        <TextView 
+            android:id="@+id/xiaoliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_org_selector"
+            android:text="销量排序"/>
+        
+        <TextView 
+            android:id="@+id/riqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_org_selector"
+            android:text="日期排序"/>
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#fcfcfc"
+                android:cacheColorHint="#00000000"
+                 android:divider="@null"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:scrollbars="none"
+                android:paddingLeft="8dip"
+        		android:paddingRight="8dip">
+        
+    </ListView>
+</LinearLayout>

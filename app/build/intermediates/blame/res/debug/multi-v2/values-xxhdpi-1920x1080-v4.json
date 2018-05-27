@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mingtingjie/Desktop/ktv/ScreenInfoPrj/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-1920x1080-v4/values-xxhdpi-1920x1080-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/mingtingjie/Desktop/ktv/ScreenInfoPrj/app/src/main/res/values-xxhdpi-1920x1080/dimens.xml",
+                    "from": {
+                        "startLines": "11,8,10,9,5,14,15,16,4,19",
+                        "startColumns": "4,4,4,4,5,4,4,4,5,5",
+                        "startOffsets": "438,223,368,294,142,535,583,625,98,713",
+                        "endColumns": "68,69,68,72,44,46,40,60,42,41",
+                        "endOffsets": "502,288,432,362,181,577,619,681,135,749"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,263,336,380,427,468,529,571",
+                        "endColumns": "68,69,68,72,43,46,40,60,41,40",
+                        "endOffsets": "119,189,258,331,375,422,463,524,566,607"
+                    }
+                }
+            ]
+        }
+    ]
+}
